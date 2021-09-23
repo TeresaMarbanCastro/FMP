@@ -10,6 +10,9 @@ import Garbine from "../../assets/images/Garbine-muguruza.jpg";
 import Lydia from "../../assets/images/Lydia-valentin.jpg";
 import Footer from "../../components/footer/footer";
 import SkipLink from "../../components/skipLink/skipLink";
+import letter from "../../assets/images/letter.png";
+import zass from "../../assets/images/zass-logo2.png";
+import fmp from "../../assets/images/fmp.png";
 import "./home.scss";
 
 const Home = () => {
@@ -102,8 +105,25 @@ const Home = () => {
       name: "Women's sports fundation",
     },
   ];
-  const link1= "http://www.fmujeresprogresistas.org";
-  const link2= "mailto:mujerydeporte@gmail.com";
+  const footerLinks = [
+    {
+      src: zass,
+      id: 1,
+    },
+    {
+      a: "http://www.fmujeresprogresistas.org",
+      alt: "Visitar federacion de mujeres progresistas",
+      src: fmp,
+      id: 2,
+      additionalClass: "fmp-logo",
+    },
+    {
+      a: "mailto:mujerydeporte@gmail.com",
+      alt: "Enviar email",
+      src: letter,
+      id: 3,
+    },
+  ];
 
   return (
     <>
@@ -157,7 +177,7 @@ const Home = () => {
           <LinkList items={links} />
         </section>
       </main>
-      <Footer link1={link1} link2={link2}/>
+      <Footer items={footerLinks} />
     </>
   );
 };
