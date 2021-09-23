@@ -1,0 +1,63 @@
+h2 {
+    color: var(--primaryColour, #5e0b75);
+    font-size: 3rem;
+}
+
+.section {
+  padding: 2rem 3rem;
+  margin: 0;
+  p {
+    font-size: 1.5rem;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+}
+.home-header {
+  background-image: url("../../assets/images/6-r.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  .home-header-h1 {
+    color: var(--lightcolour, black);
+    font-size: var(--header, 5.625rem);
+    text-shadow: 4px 4px black;
+  }
+}
+
+.intro-container {
+  padding: 3rem 10rem;
+  text-align: justify;
+  background-color: var(--lightestPrimary, #f2e7f7);
+
+  .intro-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primaryColour, #f2e7f7);
+    text-align: center;
+  }
+}
+
+.stats-container {
+  .stats-title {
+    text-align: left;
+    margin-bottom: 1.3em;
+  }
+}
+
+.topfive-container {
+  background-color: var(--lightestPrimary, #5e0b75);
+  line-height: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-container{
+  background-color: white;
+}

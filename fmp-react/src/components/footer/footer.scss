@@ -1,0 +1,39 @@
+.footer-common {
+  background-color: var(--primaryColour, #5e0b75);
+  width: 100%;
+  font-size: 2rem;
+  .footer-quote {
+    display: flex;
+    justify-content: center;
+    background-color: var(--lightTertiaryColour, #bed8d5);
+    .footer-quote-title {
+      height: 30%;
+      margin: 0;
+      text-align: center;
+      padding: 5px;
+      .footer-emphasis {
+        color: var(--primaryColour, #5e0b75);
+      }
+    }
+  }
+
+  .footer-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .contact {
+    width: 3rem;
+    height: 3rem;
+  }
+  .fmp-logo {
+    width: 6rem;
+  }
+  .equality-logo {
+    width: 2.5rem;
+  }
+}

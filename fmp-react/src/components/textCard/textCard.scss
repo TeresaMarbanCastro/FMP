@@ -1,0 +1,11 @@
+.list-element {
+  list-style: none;
+  .card-text {
+    margin-bottom: 0.125rem;
+  }
+}
+.section p.card-subtext {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0;
+}

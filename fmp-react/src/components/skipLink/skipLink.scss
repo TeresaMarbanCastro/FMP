@@ -1,0 +1,11 @@
+.skip-to-main-content {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  position: absolute;
+  transform: translateX(-100%);
+  font-size: 2rem;
+  &:focus {
+    transform: translateX(350%);
+  }
+}

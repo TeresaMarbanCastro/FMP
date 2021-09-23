@@ -1,0 +1,30 @@
+.links-container {
+  background-color: var(--lightestPrimary, #be9dc8);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  .links-ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .list-element {
+      background-color: white;
+      padding: 0.75rem 1.25rem;
+      list-style: none;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      &:hover {
+        background-color: var(--primaryColour, black);
+        a {
+          color: white;
+        }
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-style: normal;
+      }
+    }
+  }
+}

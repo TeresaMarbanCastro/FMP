@@ -1,0 +1,10 @@
+.App {
+  --header: 5.625rem;
+  --lightcolour: white;
+  --black: black;
+  --primaryColour: #5e0b75;
+  --lightSecondaryColour: #bd86d8;
+  --lightTertiaryColour: #bed8d5;
+  --darkcolour: #5da4a2;
+  --lightestPrimary: #f2e7f7;
+}
